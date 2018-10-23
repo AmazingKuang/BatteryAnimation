@@ -15,6 +15,8 @@
 		032C20AA217ED0400015ABF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C20A9217ED0400015ABF9 /* main.m */; };
 		032C20B4217ED0400015ABF9 /* BatteryAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C20B3217ED0400015ABF9 /* BatteryAnimationTests.m */; };
 		032C20BF217ED0400015ABF9 /* BatteryAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C20BE217ED0400015ABF9 /* BatteryAnimationUITests.m */; };
+		032C20CF217ED08D0015ABF9 /* BAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C20CE217ED08D0015ABF9 /* BAView.m */; };
+		032C20D2217ED09B0015ABF9 /* BABatterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 032C20D1217ED09B0015ABF9 /* BABatterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		032C20BA217ED0400015ABF9 /* BatteryAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		032C20BE217ED0400015ABF9 /* BatteryAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BatteryAnimationUITests.m; sourceTree = "<group>"; };
 		032C20C0217ED0400015ABF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032C20CD217ED08D0015ABF9 /* BAView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAView.h; sourceTree = "<group>"; };
+		032C20CE217ED08D0015ABF9 /* BAView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAView.m; sourceTree = "<group>"; };
+		032C20D0217ED09B0015ABF9 /* BABatterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BABatterView.h; sourceTree = "<group>"; };
+		032C20D1217ED09B0015ABF9 /* BABatterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BABatterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				032C209B217ED03F0015ABF9 /* AppDelegate.m */,
 				032C209D217ED03F0015ABF9 /* ViewController.h */,
 				032C209E217ED03F0015ABF9 /* ViewController.m */,
+				032C20CC217ED06C0015ABF9 /* BatterView */,
 				032C20A0217ED03F0015ABF9 /* Main.storyboard */,
 				032C20A3217ED0400015ABF9 /* Assets.xcassets */,
 				032C20A5217ED0400015ABF9 /* LaunchScreen.storyboard */,
@@ -130,6 +137,17 @@
 				032C20C0217ED0400015ABF9 /* Info.plist */,
 			);
 			path = BatteryAnimationUITests;
+			sourceTree = "<group>";
+		};
+		032C20CC217ED06C0015ABF9 /* BatterView */ = {
+			isa = PBXGroup;
+			children = (
+				032C20CD217ED08D0015ABF9 /* BAView.h */,
+				032C20CE217ED08D0015ABF9 /* BAView.m */,
+				032C20D0217ED09B0015ABF9 /* BABatterView.h */,
+				032C20D1217ED09B0015ABF9 /* BABatterView.m */,
+			);
+			path = BatterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				032C209F217ED03F0015ABF9 /* ViewController.m in Sources */,
+				032C20D2217ED09B0015ABF9 /* BABatterView.m in Sources */,
+				032C20CF217ED08D0015ABF9 /* BAView.m in Sources */,
 				032C20AA217ED0400015ABF9 /* main.m in Sources */,
 				032C209C217ED03F0015ABF9 /* AppDelegate.m in Sources */,
 			);
